@@ -1,0 +1,4 @@
+program/*.aux
+program/*.log
+program/*.out
+program/*.gz
