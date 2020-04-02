@@ -2,3 +2,4 @@ program/*.aux
 program/*.log
 program/*.out
 program/*.gz
+*ipynb_checkpoints*
