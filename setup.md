@@ -53,7 +53,7 @@ You may need to [install additional dependencies for Qt](https://docs.continuum.
 - Anaconda will ask you to install PyCharm, which is another IDE that we will not use. Click Continue to skip
 - If the installation was successful, click Close
 - Verify your installation by doing the following:
-    - Hit Cmd+Space, type "Anaconda Prompt" and and start the program
+    - Hit Cmd+Space, type either "Anaconda Prompt" or "Anaconda Navigator" and start the program
     - This will open a Terminal in a new window. Enter `conda list`
     - Enter `python`, wait until it is loaded and enter `quit()`
     - Type `jupyter notebook`, this will open a new tab in your browser, click quit in the upper right and close the tab
@@ -73,10 +73,10 @@ conda update conda
 - If that does not help: Contact me (waidele@leibniz-kis.de), or Carl (schaffer@leibniz-kis.de) or Saida (smdiazcas@leibniz-kis.de)
 
 ## 2. Downloading the lecture repository
-All of the material for the lecture will be located in my [GitHub-repository](https://github.com/mwaidele/python_lecture_KIS2020). Although it can be easily viewed and accessed there, it is more convenient to download the whole repository on your local device. Note that content in this repository will change over time.
+All of the material for the lecture will be located in my [GitLab-repository](https://gitlab.leibniz-kis.de/waidele/python_lecture_kis2020). Although it can be easily viewed and accessed there, it is more convenient to download the whole repository on your local device. Note that content in this repository will change over time.
 
 ### 2.1. Downloading via Browser
-- [Download my GitHub repo](https://github.com/mwaidele/python_lecture_KIS2020/zipball/master)
+- [Download my GitLab repo](https://gitlab.leibniz-kis.de/waidele/python_lecture_kis2020/-/archive/master/python_lecture_kis2020-master.zip)
 - Click "Save File"
 - Move the downloaded file (should be in your `Downloads/` directory) into any folder you would like to store the lecture material
 - Extract all files (double click the .zip file)
@@ -85,7 +85,7 @@ All of the material for the lecture will be located in my [GitHub-repository](ht
 ### 2.2. Downloading via `git`
 If you have `git` installed, you can clone the repository. This is only available for Linux and macOS users.
 - Make a new directory for the lecture material (for example `~/lectures`)
-- In a terminal window, type `git clone https://github.com/mwaidele/python_lecture_KIS2020.git`
+- In a terminal window, type `git clone https://gitlab.leibniz-kis.de/waidele/python_lecture_kis2020.git`
 
 ## 3. Setup the lecture environment
 In order to make sure we are all using the same packages and versions, a virtual environment, specifically for this lecture can be installed.
@@ -112,6 +112,9 @@ ipython kernel install --user --name=pyKIS
 jupyter notebook
 ```
 - Click "Quit" in the upper right in the browser tab that just opened
-- Type `conda deactivate pyKIS`
+- Type `conda deactivate`
 
 You should be all set up and ready for the lecture now. If you have any issues, please feel free to contact me (waidele@leibniz-kis.de), Carl (schaffer@leibniz-kis.de) or Saida (smdiazcas@leibniz-kis.de)
+
+## 4. Register your DataCamp account
+TBD
