@@ -9,6 +9,7 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - pycodestyle=2.4.0=py37_0
   - pandas
   - astropy
   - h5py

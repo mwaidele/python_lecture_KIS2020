@@ -3,3 +3,4 @@ program/*.log
 program/*.out
 program/*.gz
 *ipynb_checkpoints*
+*__pycache__*
