@@ -1,0 +1,4 @@
+First line of file <workfile.txt>
+Second line
+
+The line above is left blank.

@@ -82,7 +82,14 @@ All of the material for the lecture will be located in my [GitLab-repository](ht
 ### 2.2. Downloading via `git`
 If you have `git` installed, you can clone the repository. This is only available for Linux and macOS users.
 - Make a new directory for the lecture material (for example `~/lectures`)
-- In a terminal window, type `git clone https://gitlab.leibniz-kis.de/waidele/python_lecture_kis2020.git`
+- In a terminal window, type 
+```bash
+git clone https://gitlab.leibniz-kis.de/waidele/python_lecture_kis2020.git
+```
+- To quickly update your local material, navigate your current directory to `.../python_lecture_kis2020` and type
+```bash
+git pull --all
+```
 
 ## 3. Setup the lecture environment
 In order to make sure we are all using the same packages and versions, a virtual environment, specifically for this lecture can be installed.
@@ -122,13 +129,14 @@ Learning a new programming language is very much possible from just attaining a 
 
 - Go to [the DataCamp portal sign up](https://www.datacamp.com/users/sign_up)
 - Register with your leibniz-kis.de email (DataCamp will send some advertisement every now and then. You can of course choose any other email, but due to subscription purposes, your work-mail is advised)
+- **Important:** The final details on how to get reimbursed have not been agreed on yet.  Of course you will be fully imbursed eventually. We will notify everyone in a seperate email, once an agreement was made. If you'd rather wait until then, you can skip the following steps.
 - Go to [the plan overview](https://www.datacamp.com/pricing)
 - Click "subscribe" under the BASIC tab
 - At the top of the page, **click "pay monthly"**
-- Enter your details. You can pay via credit card or PayPal, of course you will 
+- Enter your details. You can pay via credit card or PayPal, again: of course you will 
 be fully reimbursed by the Institute.
 - Download your invoice: Go to [Account Settings -> Subscription](https://www.datacamp.com/profile/account_settings/subscription), all the way at the bottom right, under "Payment History", you can click "Download". Save the pdf to your disk.
-- Write an email to Heidrun Strohbach (heidrun.strohbach@leibniz-kis.de), for the subject type: "Python lecture at KIS: DataCamp - Reimbursement"; and attach your invoice pdf document. In the text body, give your bank details (IBAN and account holder).
+- Please keep this document , as you will need it for the reimbursement.
 - **Important:** the Institute will for now only pay one month of subscription, so we need to cancel the plan right away. Again go to [Account Settings -> Subscription](https://www.datacamp.com/profile/account_settings/subscription)
 - In the top right under "Subscription", click "Stop Automatic Billing".
 - A pop-up window will open. Click "Cancel forever"
